@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRINCSTAR</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container flex">
+            <a href="#" class="header__logo" aria-label="go to main page">
+                <img src="img/logo.webp" alt="logo"> 
+            </a>
+            <img class="header__burger" src="img/burger.webp" alt="menu" aria-label="open navigation"> 
+            <button class="btn butten-reset header__btn" aria-label="open catalog">
+                Catalogue
+            </button>
+            <input class="header__input"  type="text" placeholder="search" aria-label="search">
+            <nav class="header__nav" aria-label="list navigation">
+                <ul class="nav__list list-reset flex">
+                    <li class="nav__item" aria-label="go to about">
+                        <a class="nav_link" href="#" >
+                            About
+                        </a>
+                    </li>
+                    <li class="nav__item" >
+                        <a class="nav_link" href="#" aria-label="go to FAQ">
+                            FAQ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav_link" href="#" aria-label="go to contacts">
+                            Contacts
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <svg class="header__star" width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.14544 17.8443C4.49621 18.1157 4.9411 18.0224 5.47153 17.6408L9.99736 14.3416L14.5317 17.6408C15.0622 18.0224 15.4985 18.1157 15.8578 17.8443C16.2086 17.5814 16.2856 17.1489 16.0717 16.5298L14.2836 11.2545L18.8522 7.99772C19.3827 7.62455 19.5966 7.23442 19.4597 6.81036C19.3228 6.40327 18.9207 6.19972 18.2619 6.2082L12.6581 6.24213L10.9556 0.941408C10.7502 0.313803 10.4422 0 9.99736 0C9.56103 0 9.25304 0.313803 9.04771 0.941408L7.34517 6.24213L1.74136 6.2082C1.08259 6.19972 0.680487 6.40327 0.5436 6.81036C0.398157 7.23442 0.620598 7.62455 1.15104 7.99772L5.71964 11.2545L3.93155 16.5298C3.71767 17.1489 3.79467 17.5814 4.14544 17.8443Z" fill="white"/>
+            </svg>
+            <img class="header__img" src="img/Avatar_header.webp" alt="avatar">
+        </div>
+    </header>
+    
+    <main class="main">
+        
+        <section class="hero" aria-label="main section">
+            <div class="container hero__container">
+                <div class="hero__descr">
+                    <p class="descr__catalog-gray">Catalog / Whiskey /<span class="descr__catalog-white">Whiskey Writers&rsquo; Tears Red Head, Writers&rsquo; Tears</span></p>
+                </div>
+                <div class="hero__content flex">
+                    <div class="content__left">
+                        <div class="hero__content-cart hero__background-cart1"></div>
+                        <div class="hero__content-cart hero__background-cart2"></div>
+                        <div class="hero__content-cart hero__background-cart3"></div>
+                        <button class="hero__content-btn butten-reset">Accessories</button>
+                        <div class="hero__content-cart hero__background-cart4"></div>
+                        <div class="hero__content-cart hero__background-cart5"></div>
+                        <div class="hero__content-cart hero__background-cart6"></div>
+                    </div>
+                    <div class="content__center hero__background-cart-main">
+                        <svg class="hero__loadind" width="16" height="22" viewBox="0 0 16 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.1735 5.53987L7.99345 2.35987L4.81345 5.53987L3.97345 4.69987L7.99345 0.679871L12.0135 4.69987L11.1735 5.53987Z" fill="white"/>
+                            <path d="M7.39532 1.5202H8.59532V14.1202H7.39532V1.5202Z" fill="white"/>
+                            <path d="M14 21.3201H2.00001C0.980012 21.3201 0.200012 20.5401 0.200012 19.5201V8.72011C0.200012 7.70011 0.980012 6.9201 2.00001 6.9201H6.20001V8.1201H2.00001C1.64001 8.1201 1.40001 8.36011 1.40001 8.72011V19.5201C1.40001 19.8801 1.64001 20.1201 2.00001 20.1201H14C14.36 20.1201 14.6 19.8801 14.6 19.5201V8.72011C14.6 8.36011 14.36 8.1201 14 8.1201H9.80001V6.9201H14C15.02 6.9201 15.8 7.70011 15.8 8.72011V19.5201C15.8 20.5401 15.02 21.3201 14 21.3201Z" fill="white"/>
+                        </svg>
+                    </div>
+                    <div class="content__right">
+                        <div class="hero__content-block1 flex" >
+                            <button class="hero__btn butten-reset hero__btn-brown">
+                                Version&nbsp;1
+                            </button>
+                            <button class="hero__btn butten-reset hero__btn-transparent1">
+                                Version&nbsp;2
+                            </button>
+                            <button class="hero__btn butten-reset hero__btn-transparent2">
+                                Version&nbsp;3
+                            </button>
+                            <button class="hero__btn butten-reset hero__btn-new">
+                                New
+                            </button>
+                        </div>
+                        <div class="hero__content-block2">
+                            <p class="content__block2-descr1">
+                                Writers&rsquo; Tears
+                            </p>
+                            <h1 class="content__block2-title">
+                                Whiskey Writers&rsquo; Tears Red Head, Writers&rsquo; Tears
+                            </h1>
+                            <p class="content__block2-descr2">
+                                Speyside Single Malt Scotch Whisky Distillery Bottling
+                            </p>
+                            <div class="hero__content-star flex">
+                                <p class="hero__reting-descr">
+                                    3,0
+                                </p>
+                               <img src="img/hero_star.webp" alt="rating">
+                            </div>
+                        </div>
+                        <div class="hero__content-block3 flex">
+                            <div class="content__left-block3">
+                                <p class="content__block3-descr">
+                                    Volume (ml)
+                                </p>
+                                <div class="content__block3-button flex">
+                                    <button class="btn__block3 butten-reset btn__block3-brown">
+                                        500
+                                    </button>
+                                    <button class="btn__block3 butten-reset btn__block3-transparent">
+                                        750
+                                    </button>
+                                    <button class="btn__block3 butten-reset btn__block3-transparent">
+                                        1000
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="content__right-block3 flex">
+                                <div class="right__block3-row">
+                                    <p class="row__descr1">
+                                        ABV(%)
+                                    </p>
+                                    <p class="row__descr2">
+                                        40%
+                                    </p>
+                                </div>
+                                <div class="right__block3-row">
+                                    <p class="row__descr1">
+                                        Age
+                                    </p>
+                                    <p class="row__descr2">
+                                        12
+                                    </p>
+                                </div>
+                                <div class="right__block3-row">
+                                    <p class="row__descr1">
+                                        Manufacturer
+                                    </p>
+                                    <p class="row__descr2">
+                                        Writers&rsquo; Tears
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero__content-block4 flex">
+                            <div class="content__left-block4">
+                                <div class="content__left-block4-cart">
+                                    <p class="left__block4-descr">
+                                        Origin
+                                    </p>
+                                </div>
+                                <div class="left__block4-cart flex">
+                                    <img class="block4__cart-img" src="img/flag-round-irl.webp" alt="flag">
+                                    <p class="block4__cart-descr">
+                                        Ireland,&nbsp;+2
+                                    </p>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.84791 13L8.72624 6.38134L7.27376 6.38134L7.15209 13L8.84791 13ZM8.0038 3C7.43346 3 7 3.38409 7 3.88477C7 4.38546 7.43346 4.76955 8.0038 4.76955C8.55894 4.76955 9 4.38546 9 3.88477C9 3.38409 8.55894 3 8.0038 3Z" fill="#AC8E68"/>
+                                        <rect x="0.5" y="0.5" width="15" height="15" rx="7.5" stroke="#2E2E30"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="content__right-block4">
+                                <div class="right__block4-descr-cart">
+                                    <p class="right__block4-descr">
+                                        Market
+                                    </p>
+                                </div>
+                                <select name="country" class="right__block-select">
+                                    <option value="Cанкт-Петербург">USA</option>
+                                    <option value="Москва">Spain</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="spec container spec__container flex" aria-label="section with description">
+            <div class="spec__content" aria-label="specification">
+                    <h2 class="spec__content-title">
+                        Specifications
+                    </h2>
+                <div class="left__content-tb">
+                    <div class="tb__item flex">
+                        <p class="tb__item-descr">
+                            Name
+                        </p>
+                        <p class="tb__item-descr">
+                            Whiskey Writers&rsquo; Tears Red Head, Writers&rsquo; Tears
+                        </p>
+                    </div>
+                    <div class="tb__item flex">
+                        <p class="tb__item-descr">
+                            Alcohol By Volume
+                        </p>
+                        <p class="tb__item-descr">
+                            40&nbsp;%
+                        </p>
+                    </div>
+                    <div class="tb__item flex">
+                        <p class="tb__item-descr">
+                            Volume (ml)
+                        </p>
+                        <p class="tb__item-descr">
+                            700
+                        </p>
+                    </div>
+                    <div class="tb__item flex">
+                        <p class="tb__item-descr">
+                            Excerpt
+                        </p>
+                        <p class="tb__item-descr">
+                            12 years old
+                        </p>
+                    </div>
+                    <div class="tb__item flex">
+                        <p class="tb__item-descr">
+                            Alcohol By Volume
+                        </p>
+                        <p class="tb__item-descr">
+                            40
+                        </p>
+                    </div>
+                </div>
+                <button class="left__content-btn butten-reset">
+                    Show more
+                </button>
+            </div>
+            <div class="spec__content" aria-label="description">
+                <h2 class="spec__content-title">
+                    Description
+                </h2>
+                <p class="right__content-descr right__content-descr-path1">
+                    A&nbsp;distinctive feature of&nbsp;the production line &laquo;Sherry Oak&raquo; is&nbsp;maturation in&nbsp;sherry casks,
+                    with each vintage aged in&nbsp;different barrels. European oak sherry casks give the whiskey
+                    a&nbsp;rich aroma with notes of&nbsp;dry fruit, spices and chocolate, while American oak sherry
+                    casks add tones of&nbsp;lemon, coconut and toffee.
+                </p>
+                <p class="right__content-descr">
+                    A&nbsp;distinctive feature of&nbsp;the production line &laquo;Sherry Oak&raquo; is&nbsp;maturation in&nbsp;sherry casks,
+                    with each vintage aged in&nbsp;different barrels. European oak sherry casks give the whiskey
+                    a&nbsp;rich aroma with notes of&nbsp;dry fruit, spices and chocolate, while American oak sherry
+                    casks add tones of&nbsp;lemon, coconut and toffee.   
+                </p>
+            </div>
+        </section>
+        
+        <section class="reviews container" aria-label="section with reviews">
+                <h2 class="recomemend__title">
+                    Reviews
+                </h2>
+            <div class="reviews__container flex">
+            <div class="reviews__left-content">
+                <div class="reviews__cart">
+                    <div class="reviews__cart-top flex">
+                        <img class="reviews__avatar" src="img/avatar.webp" alt="avatar">
+                        <div class="reviews__reting-content">
+                            <p class="reviews__reiting-descr">
+                                Roland Smith
+                            </p>
+                            <img src="img/reviews_srar.webp" alt="rating">
+                        </div>
+                        <time class="reviews__reting-data" datetime="2022-12-08">8 December 2022</time>
+                    </div>
+                    <div class="reviews__cart-bottom">
+                        <p class="revievs__cart-descr">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do&nbsp;eiusmod tempor incididunt ut&nbsp;labor et&nbsp;dolore magna aliqua. Ut&nbsp;enim ad&nbsp;minim veniam, quis nostrud ullamco laboris nisi utaliquip ex&nbsp;ea&nbsp;commodo consequat. Ut&nbsp;labor et&nbsp;dolore magna aliqua. Ut&nbsp;enim ad&nbsp;minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex&nbsp;ea...
+                        </p>
+                        <button class="revievs__cart-button butten-reset">
+                            More
+                        </button>
+                    </div>
+                </div>
+                <div class="reviews__cart">
+                    <div class="reviews__cart-top flex">
+                        <img class="reviews__avatar" src="img/avatar.webp" alt="avatar">
+                        <div class="reviews__reting-content">
+                            <p class="reviews__reiting-descr">
+                                Roland Smith
+                            </p>
+                            <img src="img/reviews_srar.webp" alt="rating">
+                        </div>
+                        <time class="reviews__reting-data" datetime="2022-12-08">8 December 2022</time>
+                    </div>
+                    <div class="reviews__cart-bottom">
+                        <p class="revievs__cart-descr">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do&nbsp;eiusmod tempor incididunt ut&nbsp;labor et&nbsp;dolore magna aliqua. Ut&nbsp;enim ad&nbsp;minim veniam, quis nostrud ullamco laboris nisi utaliquip ex&nbsp;ea&nbsp;commodo consequat. Ut&nbsp;labor et&nbsp;dolore magna aliqua. Ut&nbsp;enim ad&nbsp;minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex&nbsp;ea...
+                        </p>
+                        <button class="revievs__cart-button butten-reset">
+                            More
+                        </button>
+                    </div>
+                </div>
+                <div class="reviews__cart">
+                    <div class="reviews__cart-top flex">
+                        <img class="reviews__avatar" src="img/avatar.webp" alt="avatar">
+                        <div class="reviews__reting-content">
+                            <p class="reviews__reiting-descr">
+                                Roland Smith
+                            </p>
+                            <img src="img/reviews_srar.webp" alt="рейтинг">
+                        </div>
+                        <time class="reviews__reting-data" datetime="2022-12-08">8 December 2022</time>
+                    </div>
+                    <div class="reviews__cart-bottom">
+                        <p class="revievs__cart-descr">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do&nbsp;eiusmod tempor incididunt ut&nbsp;labor et&nbsp;dolore magna aliqua. Ut&nbsp;enim ad&nbsp;minim veniam, quis nostrud ullamco laboris nisi utaliquip ex&nbsp;ea&nbsp;commodo consequat. Ut&nbsp;labor et&nbsp;dolore magna aliqua. Ut&nbsp;enim ad&nbsp;minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex&nbsp;ea...
+                        </p>
+                        <button class="revievs__cart-button butten-reset">
+                            More
+                        </button>
+                    </div>
+                </div>
+                <div class="reviews__cart revievs__cart-last">
+                    <div class="reviews__cart-top flex">
+                        <img class="reviews__avatar" src="img/avatar.webp" alt="avatar">
+                        <div class="reviews__reting-content">
+                            <p class="reviews__reiting-descr">
+                                Roland Smith
+                            </p>
+                            <img src="img/reviews_srar.webp" alt="rating">
+                        </div>
+                        <time class="reviews__reting-data" datetime="2022-12-08">8 December 2022</time>
+                    </div>
+                    <div class="reviews__cart-bottom">
+                        <p class="revievs__cart-descr">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do&nbsp;eiusmod tempor incididunt ut&nbsp;labor et&nbsp;dolore magna aliqua. Ut&nbsp;enim ad&nbsp;minim veniam, quis nostrud ullamco laboris nisi utaliquip ex&nbsp;ea&nbsp;commodo consequat. Ut&nbsp;labor et&nbsp;dolore magna aliqua. Ut&nbsp;enim ad&nbsp;minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex&nbsp;ea...
+                        </p>
+                        <button class="revievs__cart-button butten-reset">
+                            More
+                        </button>
+                    </div>
+                </div>
+                <button class="reviews__button butten-reset" aria-label="show more">
+                    Show more
+                </button>
+            </div>
+            <div class="reviews__right-content">
+                <div class="reviews__right-top-cart">
+                    <div class="reviews__top-cart-reting flex">
+                        <img src="img/reviews_srar.webp" alt="rating">
+                        <p class="reviews__top-cart-reting-descr">
+                            3&nbsp;out of&nbsp;5
+                        </p>
+                    </div>
+                    <div class="reviews__top-cart-lines">
+                        <div class="reviews__top-lines-content flex">
+                            <p class="reviews__top-star-descr">
+                                5 star
+                            </p>
+                            <img class="reviews__top-img" src="img/line1.webp" alt="rating line">
+                            <p class="reviews__top-number-descr">
+                                34
+                            </p>
+                        </div>
+                        <div class="reviews__top-lines-content flex">
+                            <p class="reviews__top-star-descr">
+                                4 star
+                            </p>
+                            <img class="reviews__top-img" src="img/line2.webp" alt="rating line">
+                            <p class="reviews__top-number-descr">
+                                80
+                            </p>
+                        </div>
+                        <div class="reviews__top-lines-content flex">
+                            <p class="reviews__top-star-descr">
+                                3 star
+                            </p>
+                            <img class="reviews__top-img" src="img/line3.webp" alt="rating line">
+                            <p class="reviews__top-number-descr">
+                                43
+                            </p>
+                        </div>
+                        <div class="reviews__top-lines-content flex">
+                            <p class="reviews__top-star-descr">
+                                2 star
+                            </p>
+                            <img class="reviews__top-img" src="img/line4.webp" alt="rating line">
+                            <p class="reviews__top-number-descr">
+                                50
+                            </p>
+                        </div>
+                        <div class="reviews__top-lines-content flex">
+                            <p class="reviews__top-star-descr">
+                                1 star
+                            </p>
+                            <img class="reviews__top-img" src="img/line5.webp" alt="rating line">
+                            <p class="reviews__top-number-descr">
+                                12
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="reviews__right-btn butten-reset" aria-label="add a review">
+                    Add your review
+                </button>
+            </div>
+        </div>
+        </section>
+        
+        <section class="recomend container recomend__container" aria-label="section with recommended">
+            <div class="recomend__container-title flex">
+                <h2 class="recomemend__title">
+                    Recommended
+                </h2>
+                <div class="recomend__block-arrow flex">
+                    <img src="img/arrow_left.webp" alt="arrow">
+                    <img src="img/arrow_right.webp" alt="arrow">
+                </div>
+            </div>
+            <div class="recomend__container-cart flex">
+                <div class="recomend__cart recomend__cart-background1 flex">
+                    <span class="recomend__cart-star">
+                        <svg  width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.14544 23.8443C9.49621 24.1157 9.9411 24.0224 10.4715 23.6408L14.9974 20.3416L19.5317 23.6408C20.0622 24.0224 20.4985 24.1157 20.8578 23.8443C21.2086 23.5814 21.2856 23.1489 21.0717 22.5298L19.2836 17.2545L23.8522 13.9977C24.3827 13.6246 24.5966 13.2344 24.4597 12.8104C24.3228 12.4033 23.9207 12.1997 23.2619 12.2082L17.6581 12.2421L15.9556 6.94141C15.7502 6.3138 15.4422 6 14.9974 6C14.561 6 14.253 6.3138 14.0477 6.94141L12.3452 12.2421L6.74136 12.2082C6.08259 12.1997 5.68049 12.4033 5.5436 12.8104C5.39816 13.2344 5.6206 13.6246 6.15104 13.9977L10.7196 17.2545L8.93155 22.5298C8.71767 23.1489 8.79467 23.5814 9.14544 23.8443Z" fill="#AC8E68"/>
+                        </svg>
+                    </span>
+                    <p class="recomend__cart-descr-name">
+                        Writers&rsquo; Tears
+                    </p>
+                    <h3 class="recomend__cart-title-name">
+                        Whiskey Writers&rsquo; Tears Red Head, Writers&rsquo; Tears
+                    </h3>
+                    <p class="recomend__cart-descr">
+                        Speyside Single Malt Scotch Whisky Distillery Bottling
+                    </p>
+                    <div class="recomend__cart-reting-block flex">
+                        <div class="reting__block-volume">
+                            <p class="volume__descr">
+                                500 ml
+                            </p>
+                        </div>
+                        <img class="reting__block-img" src="img/reviews_srar.webp" alt="rating">
+                        <button class="reting__block-btn butten-reset">
+                            2 versions
+                        </button>
+                    </div>
+                </div>
+                <div class="recomend__cart recomend__cart-background2 flex">
+                    <span class="recomend__cart-star">
+                        <svg  width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.14544 23.8443C9.49621 24.1157 9.9411 24.0224 10.4715 23.6408L14.9974 20.3416L19.5317 23.6408C20.0622 24.0224 20.4985 24.1157 20.8578 23.8443C21.2086 23.5814 21.2856 23.1489 21.0717 22.5298L19.2836 17.2545L23.8522 13.9977C24.3827 13.6246 24.5966 13.2344 24.4597 12.8104C24.3228 12.4033 23.9207 12.1997 23.2619 12.2082L17.6581 12.2421L15.9556 6.94141C15.7502 6.3138 15.4422 6 14.9974 6C14.561 6 14.253 6.3138 14.0477 6.94141L12.3452 12.2421L6.74136 12.2082C6.08259 12.1997 5.68049 12.4033 5.5436 12.8104C5.39816 13.2344 5.6206 13.6246 6.15104 13.9977L10.7196 17.2545L8.93155 22.5298C8.71767 23.1489 8.79467 23.5814 9.14544 23.8443Z" fill="#AC8E68"/>
+                        </svg>
+                    </span>
+                    <p class="recomend__cart-descr-name">
+                        Johnnie Walker
+                    </p>
+                    <h3 class="recomend__cart-title-name">
+                        Whiskey Mortlach&nbsp;12 Years Old
+                    </h3>
+                    <p class="recomend__cart-descr">
+                        Speyside Single Malt Scotch Whisky Distillery Bottling
+                    </p>
+                    <div class="recomend__cart-reting-block flex">
+                        <div class="reting__block-volume">
+                            <p class="volume__descr">
+                                500 ml
+                            </p>
+                        </div>
+                        <img class="reting__block-img" src="img/reviews_srar.webp" alt="рейтинг">
+                        <button class="reting__block-btn butten-reset">
+                            2 versions
+                        </button>
+                    </div>
+                </div>
+                <div class="recomend__cart recomend__cart-background3 flex">
+                    <span class="recomend__cart-star">
+                        <svg  width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.14544 23.8443C9.49621 24.1157 9.9411 24.0224 10.4715 23.6408L14.9974 20.3416L19.5317 23.6408C20.0622 24.0224 20.4985 24.1157 20.8578 23.8443C21.2086 23.5814 21.2856 23.1489 21.0717 22.5298L19.2836 17.2545L23.8522 13.9977C24.3827 13.6246 24.5966 13.2344 24.4597 12.8104C24.3228 12.4033 23.9207 12.1997 23.2619 12.2082L17.6581 12.2421L15.9556 6.94141C15.7502 6.3138 15.4422 6 14.9974 6C14.561 6 14.253 6.3138 14.0477 6.94141L12.3452 12.2421L6.74136 12.2082C6.08259 12.1997 5.68049 12.4033 5.5436 12.8104C5.39816 13.2344 5.6206 13.6246 6.15104 13.9977L10.7196 17.2545L8.93155 22.5298C8.71767 23.1489 8.79467 23.5814 9.14544 23.8443Z" fill="#AC8E68"/>
+                        </svg>
+                    </span>
+                    <p class="recomend__cart-descr-name">
+                        The Irishman
+                    </p>
+                    <h3 class="recomend__cart-title-name">
+                        Willett Family Estate Bottled Single Barrel Bourbon
+                    </h3>
+                    <p class="recomend__cart-descr">
+                        6&nbsp;Years Whiskey Single Malt
+                    </p>
+                    <div class="recomend__cart-reting-block flex">
+                        <div class="reting__block-volume">
+                            <p class="volume__descr">
+                                500 ml
+                            </p>
+                        </div>
+                        <img class="reting__block-img" src="img/reviews_srar.webp" alt="rating">
+                        <button class="reting__block-btn butten-reset">
+                            2 versions
+                        </button>
+                    </div>
+                </div>
+                <div class="recomend__cart recomend__cart-background4 flex">
+                    <span class="recomend__cart-star">
+                        <svg  width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.14544 23.8443C9.49621 24.1157 9.9411 24.0224 10.4715 23.6408L14.9974 20.3416L19.5317 23.6408C20.0622 24.0224 20.4985 24.1157 20.8578 23.8443C21.2086 23.5814 21.2856 23.1489 21.0717 22.5298L19.2836 17.2545L23.8522 13.9977C24.3827 13.6246 24.5966 13.2344 24.4597 12.8104C24.3228 12.4033 23.9207 12.1997 23.2619 12.2082L17.6581 12.2421L15.9556 6.94141C15.7502 6.3138 15.4422 6 14.9974 6C14.561 6 14.253 6.3138 14.0477 6.94141L12.3452 12.2421L6.74136 12.2082C6.08259 12.1997 5.68049 12.4033 5.5436 12.8104C5.39816 13.2344 5.6206 13.6246 6.15104 13.9977L10.7196 17.2545L8.93155 22.5298C8.71767 23.1489 8.79467 23.5814 9.14544 23.8443Z" fill="#AC8E68"/>
+                        </svg>
+                    </span>
+                    <p class="recomend__cart-descr-name">
+                        Rosebank Distillery
+                    </p>
+                    <h3 class="recomend__cart-title-name">
+                        Whiskey Rosebank Aged&nbsp;30 Years , Rosebank Distillery...
+                    </h3>
+                    <p class="recomend__cart-descr">
+                        Speyside Single Malt Scotch Whisky Distillery Bottling
+                    </p>
+                    <div class="recomend__cart-reting-block flex">
+                        <div class="reting__block-volume">
+                            <p class="volume__descr">
+                                500 ml
+                            </p>
+                        </div>
+                        <img class="reting__block-img" src="img/reviews_srar.webp" alt="rating">
+                        <button class="reting__block-btn butten-reset">
+                            2 versions
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+    
+    <footer class="footer">
+        <div class="container footer__container-top flex">
+            <div class="footer__left-content" aria-label="subscribe to news">
+                <div class="footer__left-title">
+                    <h4 class="footer__left-content-title">
+                        Subscribe to news
+                    </h4>
+                </div>
+                <form action="#" method="post" class="footer__form flex">
+                    <input class="footer__form-input" type="email" name="email" placeholder="Enter your Email" aria-label="enter you e-mail">
+                    <button class="footer__form-btn butten-reset" aria-label="subscribe">
+                        Subscribe
+                    </button>
+                </form>
+                <div class="footer__left-container-descr" aria-label="links to social networks">
+                    <p class="footer__left-descr">
+                        Follow us
+                    </p>
+                </div>
+                <div class="footer__social-block">
+                    <a class="footer__social-link" href="#" aria-label="fasebook">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_701_31051)">
+                            <path d="M22.8546 13.3208H24.6152V10.1408C24.3115 10.0975 23.2668 10 22.0502 10C19.5117 10 17.7728 11.6558 17.7728 14.6992V17.5H14.9715V21.055H17.7728V30H21.2073V21.0558H23.8952L24.3219 17.5008H21.2065V15.0517C21.2073 14.0242 21.474 13.3208 22.8546 13.3208Z" fill="white"/>
+                            </g>
+                            <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="#636366"/>
+                            <defs>
+                            <clipPath id="clip0_701_31051">
+                            <rect width="19.2857" height="20" fill="white" transform="translate(10 10)"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a class="footer__social-link" href="#" aria-label="instagram">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.5 17C25.3284 17 26 16.3284 26 15.5C26 14.6716 25.3284 14 24.5 14C23.6716 14 23 14.6716 23 15.5C23 16.3284 23.6716 17 24.5 17Z" fill="white"/>
+                            <path d="M20 16C19.2089 16 18.4355 16.2346 17.7777 16.6741C17.1199 17.1136 16.6072 17.7384 16.3045 18.4693C16.0017 19.2002 15.9225 20.0044 16.0769 20.7804C16.2312 21.5563 16.6122 22.269 17.1716 22.8284C17.731 23.3878 18.4437 23.7688 19.2196 23.9231C19.9956 24.0775 20.7998 23.9983 21.5307 23.6955C22.2616 23.3928 22.8864 22.8801 23.3259 22.2223C23.7654 21.5645 24 20.7911 24 20C24 18.9391 23.5786 17.9217 22.8284 17.1716C22.0783 16.4214 21.0609 16 20 16ZM20 22C19.6044 22 19.2178 21.8827 18.8889 21.6629C18.56 21.4432 18.3036 21.1308 18.1522 20.7654C18.0009 20.3999 17.9613 19.9978 18.0384 19.6098C18.1156 19.2219 18.3061 18.8655 18.5858 18.5858C18.8655 18.3061 19.2219 18.1156 19.6098 18.0384C19.9978 17.9613 20.3999 18.0009 20.7654 18.1522C21.1308 18.3036 21.4432 18.56 21.6629 18.8889C21.8827 19.2178 22 19.6044 22 20C22 20.5304 21.7893 21.0391 21.4142 21.4142C21.0391 21.7893 20.5304 22 20 22Z" fill="white"/>
+                            <path d="M25 12H15C13.3431 12 12 13.3431 12 15V25C12 26.6569 13.3431 28 15 28H25C26.6569 28 28 26.6569 28 25V15C28 13.3431 26.6569 12 25 12Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"/>
+                            <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="#636366"/>
+                        </svg>
+                    </a>
+                    <a class="footer__social-link" href="#" aria-label="youtybe">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.4431 26.9817L16.3399 26.9057C15.0113 26.8793 13.6795 26.9321 12.377 26.6579C10.3956 26.2483 10.2553 24.2399 10.1084 22.5553C9.90599 20.1868 9.98434 17.7754 10.3663 15.4268C10.5819 14.1089 11.4304 13.3226 12.7426 13.237C17.1723 12.9264 21.6314 12.9632 26.0512 13.1081C26.518 13.1214 26.988 13.194 27.4482 13.2766C29.7203 13.6797 29.7757 15.9556 29.923 17.8715C30.0698 19.8072 30.0078 21.7529 29.7271 23.6754C29.5019 25.2672 29.0709 26.6021 27.2524 26.7309C24.9738 26.8994 22.7476 27.0351 20.4626 26.9919C20.4627 26.9817 20.4496 26.9817 20.4431 26.9817ZM18.0308 22.9517C19.7479 21.954 21.4322 20.973 23.1394 19.982C21.4191 18.9844 19.738 18.0033 18.0308 17.0124V22.9517Z" fill="white"/>
+                            <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="#636366"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__right-content flex">
+                <div class="footer__content-product">
+                    <div class="footer__right-products">
+                    <h5 class="product__title">
+                        Products
+                    </h5>
+                    </div>
+                    <div class="footer__right-product-block flex" aria-label="product list">
+                    <ul class="product__list list-reset">
+                        <li class="product__item">
+                            Wine
+                        </li>
+                        <li class="product__item">
+                            Champagne
+                        </li>
+                        <li class="product__item">
+                            Vodka
+                        </li>
+                        <li class="product__item">
+                            Whiskey
+                        </li>
+                        <li class="product__item">
+                            Liqueurs
+                        </li>
+                    </ul>
+                
+                    <ul class="product__list list-reset">
+                        <li class="product__item">
+                            Cognac
+                        </li>
+                        <li class="product__item">
+                            Gin
+                        </li>
+                        <li class="product__item">
+                            Strong alcohol
+                        </li>
+                        <li class="product__item">
+                            Other drinks
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="footer__right-contacts" aria-label="contacts">
+                    <h5 class="footer__contacts-title">
+                        Contacts
+                    </h5>
+                    <p class="footer__contacts-descr1">
+                        1501 Page Mill Road Palo Alto, CA&nbsp;94304
+                    </p>
+                    <p class="footer__contacts-descr2">
+                        Engineering Headquarters.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container footer__container-bottom flex">
+            <div class="footer__bottom-content flex">
+            <p class="footer__bottom-descr1">
+                Term of use
+            </p>
+            <p class="footer__bottom-descr2">
+                Privacy Policy 
+            </p>
+            </div>
+            <div class="footer__bottom-content">
+            <p class="footer__bottom-descr3">
+                2022&nbsp;&copy; DrinkStar
+            </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
